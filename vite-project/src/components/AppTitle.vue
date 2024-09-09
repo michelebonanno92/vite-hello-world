@@ -1,21 +1,24 @@
-<script setup>
-import { ref } from 'vue'
-
-defineProps({
-  msg: String,
-})
-
-const count = ref(0)
+<script>
+export default {
+  data() {
+    return { 
+      title:"La mia prima app con Vue + Vite!"
+    }
+  }
+}
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
-
+  <h1>{{ title }}</h1>
 </template>
 
-<style scoped>
-.read-the-docs {
-  color: #888;
+<style>
+
+h1 {
+    text-align: center;
+    color: lightcoral;
+    font-size:40px;
+    margin-bottom:50px;
 }
+
 </style>

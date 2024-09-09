@@ -1,21 +1,18 @@
-<script setup>
-import { ref } from 'vue'
+<script>
 
-defineProps({
-  msg: String,
-})
-
-const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
-
+    <div>
+        <img src="/public/vite.svg" alt="Logo">
+    </div>
 </template>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
-}
+    div {
+        text-align:center;
+    }
+    img {
+        width:250px;
+    }
 </style>
